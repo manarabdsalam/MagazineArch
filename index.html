@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="styleAll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="http://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Archive</title>
+</head>
+<body>
+    <div class="introduction-text">
+        <h1>کارگر</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae omnis asperiores rem. </p>
+    </div>
+
+
+
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav_logo">کارگر</a>
+    
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Home</a>
+                    <a href="#" class="nav_link">About</a>
+                    <a href="#" class="nav_link">List</a>
+                    <a href="#" class="nav_link">Services</a>
+                </li>
+            </ul>
+    
+            <button class="button" id="form-open">Login</button>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="form_container">
+            <i class="uil uil_times form_close"></i>
+
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forget_pw">Forgot password?</a>
+                    </div>
+
+                    <button class="button">Login Now</button>
+
+                    <div class="login_signup">
+                        Don't have an account?<a href="#" id="login">Signup</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Create email" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm password" required>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    
+                    <button class="button">Signup Now</button>
+
+                    <div class="login_signup">
+                        Already have an account?<a href="#" id="signup">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="about-us" id="about">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti qui sint nihil nulla repudiandae reprehenderit molestias. Assumenda modi, molestias omnis excepturi recusandae, dolore ducimus accusamus sit eius reprehenderit, commodi rerum.</p>
+            </div>
+            <div class="image-box">
+                <img class="im" src="undraw_reading_re_29f8.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+     <!-- Start Articles -->
+
+    <div class="Articles" id="Articles">
+        <div class="container">
+            <nav>
+                <label for="btn" class="button">Articles
+                        <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+                </label>
+                <input type="checkbox" id="btn">
+                <ul class="menu">
+                    <li>
+                        <label for="btn-1" class="first">Farsi</label>
+                        <input type="checkbox" id="btn-1">
+                        <ul>
+                            <li><a href="indexFarsi.html">Kargar 1</a></li>
+                            <li><a href="#">Kargar 2</a></li>
+                            <li><a href="#">Kargar 3</a></li>
+                        </ul>
+                    </li>
+                        
+                    <li>
+                    <label for="btn-2" class="first">English</label>
+                            
+                        <input type="checkbox" id="btn-2">
+
+                        <ul class="menu">
+                            <li><a href="indexEnglish.html">Kargar 1</a></li>
+                            <li><a href="#">Kargar 2</a></li>
+                            <li><a href="#">Kargar 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <label for="btn-3" class="first">Arabic</label>
+                        <input type="checkbox" id="btn-3">
+                        <ul class="menu">
+                            <li><a href="indexArabic.html">Kargar 1</a></li>
+                            <li><a href="#">Kargar 2</a></li>
+                            <li><a href="#">Kargar 3</a></li>
+                        </ul>
+                    </li>
+                </ul>   
+            </nav>
+        </div>
+    </div>
+        <!--  End Articles -->
+    
+
+        <div class="ben">
+
+        </div>
+
+
+
+
+
+
+    <footer>
+        <!-- <div class="footercontainer">
+            <div class="socialicons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Content Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+        </div> -->
+        <div class="footerBottem">
+            <p>Copyright &copy;2022;Designed by <span class="designer">almanar</span></p>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="app.js"></script>
+</body>
+</html>
